@@ -1,4 +1,4 @@
-material RepeatedTexture1
+material RepeatedTexture_pano
 {
   receive_shadows off
   technique
@@ -8,7 +8,7 @@ material RepeatedTexture1
       texture_unit
       {
         // Relative to the location of the material script
-        texture ../textures/1.jpg
+        texture ../textures/scene.jpg
         // Repeat the texture over the surface (4 per face)
         scale 1 1
       }
