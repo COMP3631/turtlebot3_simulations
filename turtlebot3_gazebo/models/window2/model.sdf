@@ -1,28 +1,29 @@
 <?xml version="1.0"?>
 <sdf version="1.6">
-  <model name="space3">
+  <model name="window2">
     <static>true</static>
     <link name="robot_link">
       <collision name="body_collision">
         <geometry>
-          <box>
-            <size>0.5 0.01 0.5</size>
-          </box>
+          <plane>
+            <size>0.707 0.5</size>
+          </plane>
         </geometry>
       </collision>
       
       <visual name="body_visual">
+        <cast_shadows>0</cast_shadows>
         <geometry>
-          <box>
-            <size>0.707 0.01 0.5</size>
-          </box>
+          <plane>
+            <size>0.707 0.5</size>
+          </plane>
         </geometry>
         
         <material>
           <script>
-           <uri>model://photoframe3/materials/scripts/</uri>
-           <uri>model://photoframe3/materials/textures/</uri>
-           <name>RepeatedTexture3</name>
+           <uri>model://window2/materials/scripts/</uri>
+           <uri>model://window2/materials/textures/</uri>
+           <name>RepeatedTexture2</name>
           </script>
         </material>
       </visual>
