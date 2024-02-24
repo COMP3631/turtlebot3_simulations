@@ -14,26 +14,15 @@
       <visual name="body_visual">
         <cast_shadows>0</cast_shadows>
         <geometry>
-<<<<<<< HEAD:turtlebot3_gazebo/models/window2/model.sdf
-          <plane>
-            <size>0.707 0.5</size>
-          </plane>
-=======
           <box>
             <size>1.0 0.01 1.0</size>
           </box>
->>>>>>> cd4b9099831baf2b20632b69fa40e10fc631049a:turtlebot3_gazebo/models/panorama/model.sdf
         </geometry>
         
         <material>
           <script>
-<<<<<<< HEAD:turtlebot3_gazebo/models/window2/model.sdf
-           <uri>model://window2/materials/scripts/</uri>
-           <uri>model://window2/materials/textures/</uri>
-=======
            <uri>model://panorama/materials/scripts/</uri>
            <uri>model://panorama/materials/textures/</uri>
->>>>>>> cd4b9099831baf2b20632b69fa40e10fc631049a:turtlebot3_gazebo/models/panorama/model.sdf
            <name>RepeatedTexture2</name>
           </script>
         </material>
