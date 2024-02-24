@@ -2,7 +2,7 @@
 <sdf version="1.6">
   <model name="window3">
     <static>true</static>
-    <link name="robot_link">
+    <link name="window3_link">
       <collision name="body_collision">
         <geometry>
           <plane>
@@ -27,7 +27,6 @@
           </script>
         </material>
       </visual>
-
     </link>
   </model>
 </sdf>

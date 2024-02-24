@@ -1,55 +1,32 @@
 <?xml version="1.0"?>
 <sdf version="1.6">
-<<<<<<< HEAD:turtlebot3_gazebo/models/window1/model.sdf
   <model name="window1">
-=======
-  <model name="pano_frame">
->>>>>>> cd4b9099831baf2b20632b69fa40e10fc631049a:turtlebot3_gazebo/models/panoframe/model.sdf
     <static>true</static>
-    <link name="robot_link">
+    <link name="window1_link">
       <collision name="body_collision">
         <geometry>
-<<<<<<< HEAD:turtlebot3_gazebo/models/window1/model.sdf
           <plane>
             <size>0.707 0.5</size>
           </plane>
-=======
-          <box>
-            <size>3.949 0.01 1.5</size>
-          </box>
->>>>>>> cd4b9099831baf2b20632b69fa40e10fc631049a:turtlebot3_gazebo/models/panoframe/model.sdf
         </geometry>
       </collision>
       
       <visual name="body_visual">
         <cast_shadows>0</cast_shadows>
         <geometry>
-<<<<<<< HEAD:turtlebot3_gazebo/models/window1/model.sdf
           <plane>
             <size>0.707 0.5</size>
           </plane>
-=======
-          <box>
-            <size>3.949 0.01 1.5</size>
-          </box>
->>>>>>> cd4b9099831baf2b20632b69fa40e10fc631049a:turtlebot3_gazebo/models/panoframe/model.sdf
         </geometry>
         
         <material>
           <script>
-<<<<<<< HEAD:turtlebot3_gazebo/models/window1/model.sdf
            <uri>model://window1/materials/scripts/</uri>
            <uri>model://window1/materials/textures/</uri>
            <name>RepeatedTexture1</name>
-=======
-           <uri>model://panoframe/materials/scripts/</uri>
-           <uri>model://panoframe/materials/textures/</uri>
-           <name>RepeatedTexture_pano</name>
->>>>>>> cd4b9099831baf2b20632b69fa40e10fc631049a:turtlebot3_gazebo/models/panoframe/model.sdf
           </script>
         </material>
       </visual>
-
     </link>
   </model>
 </sdf>
